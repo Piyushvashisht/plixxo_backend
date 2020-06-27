@@ -1,2 +1,0 @@
-# plixxo
-# plixxo-backend

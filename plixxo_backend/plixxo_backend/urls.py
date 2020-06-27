@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.urls import path, include
 from django.contrib import admin
+from User import views
 import allauth
 
 
@@ -24,6 +25,7 @@ urlpatterns = [
     path('platform/', include('Platform.urls')),
     path('user/', include('User.urls')),
     path('user/profile', include('User.views')),
+    path('profile/edit/', views.edit_profile),name='edit_profile'),
     path('bank_details/', include('Bank_details.urls')),
     path('campaign/', include('Campaign.urls')),
     path('campaign_content/', include('Campaign_content.urls')),
