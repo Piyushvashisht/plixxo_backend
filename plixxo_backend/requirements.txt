@@ -13,7 +13,7 @@ django-form-utils==1.0.3
 django-material==1.5.8
 django-phonenumber-field==3.0.1
 django-viewflow==1.5.6
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 httpie==1.0.2
 idna==2.8
